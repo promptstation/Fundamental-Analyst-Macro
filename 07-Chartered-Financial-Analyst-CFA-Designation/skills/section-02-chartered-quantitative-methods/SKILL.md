@@ -1,0 +1,166 @@
+---
+name: section-02-chartered-quantitative-methods
+description: Develop comprehensive, professional-level learning modules and training materials on quantitative Methods — The Program's Analytical Toolkit within Chartered Financial Analyst (CFA) Designation — command the Program's quantitative toolkit through time-value and statistics foundations (TVM mechanics, descriptive toolkit, probability framework, sampling systems), hypothesis testing (test architecture, p-value correctness, selection judgment, multiple-testing awareness), regression core (OLS framework,.... Use this skill whenever the user asks to create, teach, or deepen training on quantitative, methods, program, analytical, toolkit, the CFA body of knowledge, or requests workshops, lessons, curricula, job aids, or expert instruction in this area — even when the word “module” is never used.
+compatibility: Any environment that can write Markdown files; benefits from web research access for authoritative sources; no external tools or packages required.
+metadata:
+  author: Promptstation skill-building pipeline (Fundamental Analyst course 07, section 2)
+  version: 1.0.0
+  category: professional-education
+---
+
+# Quantitative Methods: The Program's Analytical Toolkit — Professional Training
+
+## Mission
+
+Produce professional-grade learning modules and training materials on **quantitative Methods: The Program's Analytical Toolkit** within The professional-credential anchor of the futures fundamental analyst discipline — the CFA Institute Program's deep training in global market analysis, asset pricing, and portfolio management, mastered as a coherent body of knowledge and applied to futures-market fundamental practice rather than passed as isolated exam content.
+
+Subject scope: Covers the quantitative topic area whose tools the entire curriculum deploys, mastered here with futures-analysis application: the time-value and statistics foundation (the money-time-value mechanics across compounding conventions, annuities, perpetuities, and amortization whose fluency underlies every valuation in the curriculum and every carry calculation in futures practice; the descriptive-statistics toolkit covering central tendency, dispersion, skewness, and kurtosis with the fat-tail relevance for financial returns documented throughout this discipline; the probability-framework command including conditional probability, Bayes applications to information updating, and distribution families with the normal-lognormal distinction central to asset-pricing models; the sampling-and-estimation system where standard errors, confidence intervals, and the central limit theorem support inference with the small-sample cautions financial data demands); the hypothesis-testing discipline (the test-architecture spanning t-tests, z-tests, and chi-square applications with the type I-II error tradeoff understanding; the p-value-interpretation correctness whose practitioner misuse the econometric companion catalogs and the curriculum examines; the test-selection judgment matching hypotheses to data structures including mean, variance, correlation, and independence testing; the multiple-testing awareness where data-snooping biases infect financial research per the specification-search disciplines of the econometrics companion); the regression-analysis core (the simple-and-multiple regression framework whose OLS mechanics, assumption set, and diagnostic suite the econometrics companion develops in depth while the curriculum emphasizes interpretation and application; the coefficient-interpretation fluency across units, significance, and economic magnitude with the R-squared-limitation understanding; the regression-violation literacy covering heteroskedasticity, serial correlation, and multicollinearity whose detection and consequences the curriculum tests and the companion's diagnostics section operationalizes; the regression-application patterns where factor models, beta estimation, and pass-through analysis instantiate regression across curriculum topics and futures practice per the sensitivity-estimation traditions); the time-series analysis (the trend-and-lag model family including linear trends, log-linear forms, and autoregressive specifications whose stationarity requirements connect to the unit-root discipline of the econometrics companion; the autocorrelation-detection and correction where Durbin-Watson application and lagged-variable models address serial dependence in financial series; the seasonality-and-unit-root awareness whose curriculum treatment complements the cointegration depth of the companion; the time-series-application patterns where return forecasting, volatility clustering observation, and mean-reversion testing appear across valuation and portfolio topics); the simulation and data topics (the Monte Carlo simulation methodology whose risk-neutral applications the derivatives companion develops while the curriculum covers general technique including bootstrap and scenario simulation; the resampling-and-jackknife concepts distinguishing simulation from historical resampling approaches; the big-data and machine-learning curriculum additions covering supervised-unsupervised distinction, overfitting concepts, and fintech applications with the interpretation-caution themes the companions reinforce; the data-visualization and text-analytics introductions whose expansion in recent curricula reflects industry evolution per the alternative-data companion's methods); the Level II quantitative integration (the multiple-regression emphasis where violation diagnosis and model specification receive vignette-level treatment; the time-series-deepening where unit-root testing and cointegration concepts appear at applied depth; the machine-learning-extension where neural-network concepts, regularization, and evaluation metrics enter recent curricula with the practical-caution framework; the cross-topic deployment where quantitative tools serve FSA quality assessment, valuation sensitivity, and portfolio optimization throughout the Program); the futures-application bridge (the statistical-arbitrage foundations where mean-reversion testing and cointegration support spread-trade analysis per the derivatives companion's curve and spread sections; the volatility-estimation techniques where historical and realized measures feed option analysis per the volatility sections of companion courses; the sensitivity-regression practice where beta and pass-through estimation quantify macro-market relationships per the event-study traditions; the backtesting-discipline connection where out-of-sample principles and overfitting awareness govern strategy evaluation per the forecasting companion's protocols); and the quantitative-fluency development (the calculator-and-computation efficiency where financial calculator mastery and formula fluency determine exam-time budget allocation; the intuition-behind-formulas principle where derivation understanding replaces memorization for retention and application per the mastery-over-memorization discipline; the quantitative-communication skill where statistical results translate into decision language for reports and recommendations per the communication traditions; the study-integration practice where quantitative topics get rehearsed through their applications in economics, FSA, and portfolio contexts rather than isolated drills) together with the section anti-patterns — the failure library: the formula-memorizer whose examination meets applied interpretation questions the stored equations cannot answer, remediated by the intuition-first principle; the statistics-without-skepticism practitioner who reports significance without multiple-testing or data-quality awareness, remediated by the research-discipline integration; the regression-black-box user who cannot diagnose violated assumptions whose consequences infect conclusions, remediated by the violation-literacy mastery; the time-series-dabbler whose AR models ignore stationarity requirements producing spurious results, remediated by the unit-root discipline connection; the ML-enthusiast without caution whose curriculum machine-learning knowledge deploys without overfitting and interpretation guards, remediated by the practical-caution framework; and the calculator-fumbler whose exam time bleeds through computational inefficiency, remediated by the fluency development with detection methods as the diagnostic.
+
+Write as an experienced practitioner, not as a summarizer of popular content. Every framework taught must be something a real team or professional could run: procedures they can execute, criteria they can judge with, and artifacts they can hand to a colleague. Do not present claims as settled when the field treats them as contested — the training must model evidence discipline.
+
+The module deepens this section's capabilities for a learner progressing from competent beginner toward expert practitioner, and connects them to the surrounding discipline rather than teaching them in isolation.
+
+## Use Cases
+
+### Full learning module
+When asked for a comprehensive module on this topic:
+1. Scope audience, prerequisites, duration, and discipline mix.
+2. Build the evidence base from the authoritative sources below.
+3. Write the full progressive module from the template.
+4. Include all exercises with model solutions and all gate checklists.
+5. Validate against the gate below before delivery.
+
+### Condensed workshop
+When asked for a one-day or half-day workshop:
+1. Prioritize the units that match where the group is stuck.
+2. Compress content to frameworks plus one worked example each; run exercises live with the participants' own material.
+3. Leave behind the relevant checklists as job aids.
+
+### Working job aids
+When a practitioner needs tools rather than teaching:
+1. Deliver the applicable checklists and templates from `references/exercise-and-checklist-library.md`, customized to their situation.
+2. Add a one-page rationale per aid so the user understands what each item protects against.
+
+## Core Output Requirements
+
+- Deliverables are Markdown documents: the module, exercise sets with model solutions, and checklists. No placeholders, no "TODO" sections.
+- Ground content in authoritative sources:
+- The CFA Institute Program curriculum across Levels I, II, and III including the topic-area weightings, Learning Outcome Statements, and the evolving curriculum structure with its Level III specialization pathways
+- The Standards of Practice Handbook and the Code of Ethics and Standards of Professional Conduct from the CFA Institute tradition with the guidance cases and enforcement framework
+- The canonical textbooks underlying the curriculum topic areas (the Fabozzi fixed-income tradition, the Damodaran valuation lineage, the Bodie-Kane-Marcus investments framework, the Ross-Westerfield corporate finance tradition)
+- The CFA Institute examination literature including past exam structures, constructed-response and item-set formats, the candidate resources, and the results and pass-rate publication tradition
+- The Global Investment Performance Standards and the performance-presentation tradition within the curriculum
+- The professional-conduct and regulatory literature including the interaction between the Code and Standards and national regulatory regimes
+- The applied-integration literature connecting credential knowledge to practitioner contexts including commodity, futures, and macro analysis applications
+- Maintain an evidence ledger while writing: every factual claim or number is either sourced, flagged as disputed/popular account, or omitted. Never invent statistics, studies, or citations.
+- Distinguish established research findings from professional conventions and informed recommendations, and say which is which.
+- Explain each specialized term in clear language on first use.
+
+## Module Development Workflow
+
+### Phase 1 — Scope and audience
+Determine delivery mode (full module / workshop / job aids), learner background, duration, and whether learners bring their own material to work on. Record these choices; they drive depth allocation in Phase 3.
+
+### Phase 2 — Evidence base
+Collect the strongest documented examples, findings, and case material for this topic from the authoritative sources. Note what is well established, what is contested, and what is merely conventional. Verify any numbers before publishing them.
+
+### Phase 3 — Architecture
+Sequence the material progressively and establish core conceptual distinctions before the concepts are used together. Suggested unit sequence:
+
+1. Unit 1
+
+### Phase 4 — Write the units
+For each unit follow the internal structure: teach the framework → show a worked example (weak / improved / professional versions where useful) → connect back to the surrounding discipline → state trade-offs explicitly. Use `references/domain-content-map.md` as the unit-by-unit source of scope, bullets, and evidence guidance.
+
+### Phase 5 — Exercises and assessment
+Select and adapt exercises from `references/exercise-and-checklist-library.md`. Adapt scenarios to the audience's domain. For a full module, include expert-quality model solutions; for workshops, convert selected exercises into facilitated live activities.
+
+### Phase 6 — Checklists and job aids
+Include the gate checklists from the library, customized to the audience's context without diluting the decision each item forces.
+
+### Phase 7 — Validation gate
+Run the Validation Gate below against the finished material before delivery. Fix failures; do not ship and caveat.
+
+## Module Template
+
+ALWAYS use this exact template for full modules:
+
+```markdown
+# Quantitative Methods: The Program's Analytical Toolkit [— audience/context subtitle]
+
+## Who This Module Is For
+## Prerequisites
+## Learning Outcomes
+## Unit 1 — Unit 1
+## Integrated Capstone
+## Practical Exercises
+## Professional Checklists
+## Sources and Evidence Notes
+```
+
+Each unit internally follows: framework → worked example(s) → disciplinary connection → trade-offs.
+
+## Writing Standards
+
+Throughout the material, prioritize language that is:
+
+* Precise without becoming jargon-heavy
+* Practical without discarding rigor
+* Honest about limitations and contested findings without being defeatist
+* Concrete — anchored in real cases, real artifacts, and verifiable numbers
+* Progressive from fundamentals to expert judgment
+
+Where a recommendation depends on context, explain the trade-off rather than presenting an absolute rule.
+
+## Validation Gate
+
+Before delivery, verify:
+
+### Content
+- all units present with correct depth for the scoped audience
+- core distinctions established before they are used together
+- every taught capability has a usable framework, not just an explanation
+
+### Evidence
+- every claim and number is sourced or explicitly flagged as disputed
+- no invented statistics, studies, dates, or citations anywhere
+- sources are authoritative; no SEO-farm or marketing claims presented as fact
+
+### Capability
+- each absorbed capability (1 in this section) is covered by teaching content AND at least one exercise with evaluation criteria
+- exercises have model solutions in full-module mode
+
+### Artifacts
+- all gate checklists included and actionable as written
+- template structure followed; no placeholder sections
+
+### Quality
+- trade-offs stated wherever recommendations are context-dependent
+- terminology explained on first use
+- reads as practitioner-written, not generic AI advice
+
+## Anti-Patterns
+
+Avoid: Memorization-over-mastery — storing formulas and definitions for exam passage without the working intuition that lets knowledge deploy under real analytical pressure, producing credentials that never change practice; Ethics-last studying — treating the most heavily weighted and professionally defining topic as final-week cramming despite its cumulative judgment structure and the Program's ethics-adjustment significance; Level-compartmentalization — passing each level as isolated content without recognizing that FSA feeds equity valuation feeds portfolio construction, losing the integrated capability the designation exists to certify; Practice-question avoidance — studying readings passively without the item-set and constructed-response practice whose format fluency separates passing from failing at every level; Credential-identity substitution — treating the charter as professional arrival rather than the maintenance beginning, letting membership obligations, continuing education, and practice standards decay into nominal status; exercises without evaluation criteria; modules that stop at inspiration without a single decision the learner can now make better; and any content that overstates certainty beyond what the evidence supports.
+
+## Decision Heuristic
+
+When allocating depth under time or length limits, ask:
+
+1. Where will this audience actually stall in practice?
+2. Which unit protects the most value if taught well?
+3. Can the learner run the framework tomorrow without me?
+4. Is every example doing work a plain sentence could not?
+5. What would a skeptical domain expert say about this material?
+
+If two topics compete for space, keep the one that changes a decision.
+
+## Final Principle
+
+The goal is not more content about the CFA body of knowledge. The goal is that a practitioner could take this material and perform: Command the Program's quantitative toolkit through time-value and statistics foundations (TVM mechanics, descriptive toolkit, probability framework, sampling systems), hypothesis testing (test architecture, p-value correctness, selection judgment, multiple-testing awareness), regression core (OLS framework, interpretation fluency, violation literacy, application patterns), time-series analysis (trend-lag families, autocorrelation correction, stationarity awareness, applications), simulation and data topics (Monte Carlo, resampling, ML additions with caution, visualization), Level II integration (multiple regression, time-series depth, ML extension, cross-topic deployment), futures application (stat-arb foundations, volatility estimation, sensitivity regression, backtesting connection), and fluency development (computation efficiency, intuition principles, communication, integration practice), avoiding formula memorization, statistics credulity, regression black boxes, time-series dabbling, ML enthusiasm without caution, and computational fumbling failures, Command the Program's quantitative toolkit through time-value and statistics foundations (TVM mechanics, descriptive toolkit, probability framework, sampling systems), hypothesis testing (test architecture, p-value correctness, selection judgment, multiple-testing awareness), regression core (OLS framework, interpretation fluency, violation literacy, application patterns), time-series analysis (trend-lag families, autocorrelation correction, stationarity awareness, applications), simulation and data topics (Monte Carlo, resampling, ML additions with caution, visualization), Level II integration (multiple regression, time-series depth, ML extension, cross-topic deployment), futures application (stat-arb foundations, volatility estimation, sensitivity regression, backtesting connection), and fluency development (computation efficiency, intuition principles, communication, integration practice), avoiding formula memorization, statistics credulity, regression black boxes, time-series dabbling, ML enthusiasm without caution, and computational fumbling failures — with the same evidence discipline the field's best practitioners use. The module must function simultaneously as a learning resource, a practical reference, and a working methodology.
+
+## Bundled References
+
+Read `references/domain-content-map.md` during Phases 3–4 for the unit-by-unit content map: scope statements, teaching bullets, evidence anchors, and trade-off prompts.
+
+Read `references/exercise-and-checklist-library.md` during Phases 5–6 for the ready-to-adapt exercises and the professional gate checklists.

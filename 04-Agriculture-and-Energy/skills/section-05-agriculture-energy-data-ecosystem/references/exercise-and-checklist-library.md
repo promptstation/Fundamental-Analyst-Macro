@@ -1,0 +1,46 @@
+# Exercise and Checklist Library — The Energy Data Ecosystem: Crude Oil and Product Intelligence
+
+Read this during Phase 5 (exercises) and Phase 6 (checklists). Adapt
+scenarios to the audience's domain; keep evaluation criteria intact — they
+are what make the exercises assessable. In full-module mode, write an
+expert-quality model solution for each included exercise.
+
+## Table of Contents
+- Part A: Practical Exercises
+- Part B: Professional Gate Checklists
+
+---
+
+# Part A: Practical Exercises
+
+## Exercise 1 — Run crude and product intelligence through the EIA weekly system (report anatomy
+**Scenario:** provide a realistic agriculture and energy market intelligence scenario appropriate to the audience (real or closely modeled on documented practice).
+**Objective:** run crude and product intelligence through the EIA weekly system (report anatomy, survey methodology, Cushing significance, implied demand), the vendor ecosystem (API previews, tanker tracking, maintenance monitoring, reconciliation discipline), supply intelligence (production estimation evolution, shale-basin tracking, OPEC triangulation, outage monitoring), demand intelligence (product decomposition, high-frequency proxies, margin signals, international systems), inventory craft (interpretation frameworks, expectation analysis, curve cross-checks, quality skepticism), report-day operations (release protocols, component priority, coherence assessment, assimilation tracking), and monthly frames (STEO anchoring, revisions, report triangulation, annual restatements), avoiding raw-number reaction, single-line reading, weekly literalism, Cushing ignorance, vendor confusion, and monthly blindness failures.
+**Constraints:** must use the framework taught in the corresponding unit; must state assumptions and trade-offs; one deliverable, length-bounded.
+**Deliverable:** the professional artifact this capability produces (memo, table, plan, analysis, or model — as applicable).
+**Evaluation criteria:** correct application of the framework; decisions justified with evidence; limitations honestly stated; artifact usable by a colleague without further explanation.
+
+## Exercise 2 — Integrated capstone
+**Scenario:** one realistic problem spanning the whole section.
+**Objective:** take the problem through every unit's framework in sequence.
+**Constraints:** all unit artifacts required and internally consistent; evidence discipline maintained throughout.
+**Deliverable:** a coherent campaign/portfolio document assembled as real professional documentation.
+**Evaluation criteria:** consistency across artifacts; each capability demonstrably exercised; trade-offs stated at each decision point.
+
+---
+
+# Part B: Professional Gate Checklists
+
+Use verbatim as module appendices and as workshop job aids. Every item must
+force a decision or produce an artifact — items that are merely
+inspirational get cut.
+
+## B1. Run crude and product checklist
+- [ ] Run crude and product intelligence through the EIA weekly system (report anatomy, survey methodology, Cushing significance, implied demand), the vendor ecosystem (API previews, tanker tracking, maintenance monitoring, reconciliation discipline), supply intelligence (production estimation evolution, shale-basin tracking, OPEC triangulation, outage monitoring), demand intelligence (product decomposition, high-frequency proxies, margin signals, international systems), inventory craft (interpretation frameworks, expectation analysis, curve cross-checks, quality skepticism), report-day operations (release protocols, component priority, coherence assessment, assimilation tracking), and monthly frames (STEO anchoring, revisions, report triangulation, annual restatements), avoiding raw-number reaction, single-line reading, weekly literalism, Cushing ignorance, vendor confusion, and monthly blindness failures?
+- [ ] Decisions and their justification are documented for review by a colleague
+
+## B2. Delivery quality checklist
+- [ ] Every claim sourced, graded, or flagged as contested?
+- [ ] All terminology explained on first use?
+- [ ] Trade-offs stated wherever recommendations are context-dependent?
+- [ ] Material reads as practitioner-written, not generic?

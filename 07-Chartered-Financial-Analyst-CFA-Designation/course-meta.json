@@ -1,0 +1,24 @@
+{
+  "course_number": 7,
+  "course_title": "Chartered Financial Analyst (CFA) Designation",
+  "folder": "07-Chartered-Financial-Analyst-CFA-Designation",
+  "discipline_framing": "The professional-credential anchor of the futures fundamental analyst discipline — the CFA Institute Program's deep training in global market analysis, asset pricing, and portfolio management, mastered as a coherent body of knowledge and applied to futures-market fundamental practice rather than passed as isolated exam content",
+  "domain_short": "the CFA body of knowledge",
+  "audience": "Fundamental analysts of futures and derivatives markets pursuing or applying the CFA designation who need command of the Program's ten topic areas — ethics, quantitative methods, economics, financial statement analysis, corporate issuers, equity, fixed income, derivatives, alternatives, and portfolio management — integrated into working analytical capability and exam-success strategy",
+  "sources": [
+    "The CFA Institute Program curriculum across Levels I, II, and III including the topic-area weightings, Learning Outcome Statements, and the evolving curriculum structure with its Level III specialization pathways",
+    "The Standards of Practice Handbook and the Code of Ethics and Standards of Professional Conduct from the CFA Institute tradition with the guidance cases and enforcement framework",
+    "The canonical textbooks underlying the curriculum topic areas (the Fabozzi fixed-income tradition, the Damodaran valuation lineage, the Bodie-Kane-Marcus investments framework, the Ross-Westerfield corporate finance tradition)",
+    "The CFA Institute examination literature including past exam structures, constructed-response and item-set formats, the candidate resources, and the results and pass-rate publication tradition",
+    "The Global Investment Performance Standards and the performance-presentation tradition within the curriculum",
+    "The professional-conduct and regulatory literature including the interaction between the Code and Standards and national regulatory regimes",
+    "The applied-integration literature connecting credential knowledge to practitioner contexts including commodity, futures, and macro analysis applications"
+  ],
+  "pitfalls": [
+    "Memorization-over-mastery — storing formulas and definitions for exam passage without the working intuition that lets knowledge deploy under real analytical pressure, producing credentials that never change practice",
+    "Ethics-last studying — treating the most heavily weighted and professionally defining topic as final-week cramming despite its cumulative judgment structure and the Program's ethics-adjustment significance",
+    "Level-compartmentalization — passing each level as isolated content without recognizing that FSA feeds equity valuation feeds portfolio construction, losing the integrated capability the designation exists to certify",
+    "Practice-question avoidance — studying readings passively without the item-set and constructed-response practice whose format fluency separates passing from failing at every level",
+    "Credential-identity substitution — treating the charter as professional arrival rather than the maintenance beginning, letting membership obligations, continuing education, and practice standards decay into nominal status"
+  ]
+}

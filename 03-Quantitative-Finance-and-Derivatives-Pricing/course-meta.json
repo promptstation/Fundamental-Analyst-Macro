@@ -1,0 +1,24 @@
+{
+  "course_number": 3,
+  "course_title": "Quantitative Finance & Derivatives Pricing",
+  "folder": "03-Quantitative-Finance-and-Derivatives-Pricing",
+  "discipline_framing": "The instrument mathematics of the futures fundamental analyst discipline — while fundamental analysis determines where price should go based on supply and demand, this course commands the math of the instruments themselves: option Greeks, futures curve mechanics including contango and backwardation, and the hedging behaviors of commercial entities",
+  "domain_short": "quantitative finance and derivatives pricing",
+  "audience": "Fundamental analysts of futures and derivatives markets who hold supply-demand views but need rigorous command of contract mechanics, no-arbitrage pricing, volatility analysis, curve structure, and hedging-flow literacy to express views correctly and read what instrument prices imply",
+  "sources": [
+    "The derivatives canon (the Hull Options-Futures-And-Other-Derivatives tradition as the practitioner reference, the CME Group education and rulebook documentation for contract mechanics)",
+    "The no-arbitrage pricing literature (the Cox-Ross-Rubinstein binomial tradition, the Black-Scholes-Merton framework, the risk-neutral valuation synthesis from the financial-mathematics canon)",
+    "The volatility and options-trading literature (the Taleb Dynamic-Hedging practitioner tradition, the implied-volatility-surface research, the VIX and variance-risk-premium literature)",
+    "The futures-curve and storage literature (the Working-Hotelling storage theory, the contango-backwardation and roll-yield research, the commodity-risk-premium studies from Gorton-Rouwenhorst through the modern era)",
+    "The fixed-income and rates-derivatives tradition (the Tuckman bond and swap analytics, the interest-rate option models, the SOFR-transition documentation)",
+    "The hedging and positioning literature (the CFTC commitment-of-traders tradition and its academic analyses, the commercial-hedging research, the Keynesian and Hirshleifer hedging-pressure theory lineage)",
+    "The risk-management canon (the Jorion Value-at-Risk tradition, the stress-testing and scenario-analysis literature, the model-risk management framework from the Derman lineage and regulatory guidance)"
+  ],
+  "pitfalls": [
+    "Direction-right-expression-wrong — holding a correct fundamental view but expressing it through an instrument whose curve position, roll dynamics, or Greeks quietly tax the thesis to death",
+    "Model literalism — treating Black-Scholes outputs as truth rather than a coordinate system for quoting risk, forgetting every model price is a parameterization of market prices",
+    "Volatility conflation — mixing implied, realized, and forecast volatility in one argument until the analysis compares numbers that measure different things",
+    "Hedger-flow misreading — interpreting commercial positioning as directional opinion when it is inventory and margin management, then trading against the wrong signal",
+    "Curve-blind carry — collecting apparent yield in contango or backwardation without accounting for roll mechanics that convert curve shape into realized return"
+  ]
+}

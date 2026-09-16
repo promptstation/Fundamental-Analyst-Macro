@@ -1,0 +1,69 @@
+# Domain Content Map — Numerical Methods: Lattices, Monte Carlo, and Pricing in Practice
+
+Read this during Phase 3 (architecture) and Phase 4 (writing) of the module
+development workflow. Verify all factual claims and numbers against the
+authoritative sources before publishing (Phase 2 evidence base); flag
+anything disputed rather than repeating it.
+
+## Absorbed capabilities this module must produce
+1. Run numerical pricing through lattice methods (binomial construction and backward induction, convergence and artifacts, trinomial and PDE extensions, limitation map), Monte Carlo engines (simulation architecture, random-number discipline, variance reduction toolkit, path-generation schemes), application domains (path dependence, multi-asset scaling, XVA, real options), integration and transforms (quadrature, FFT methods, finite-difference solvers), calibration practice (problem definition, weighted objectives, optimization mechanics, cadence and stability, quality diagnostics), implementation hygiene (convention discipline, cross-validation, convergence testing, performance, version control), and numerical-risk awareness (discretization exposure, noise-signal confusion, dimension curse.
+2. Model-numerics entanglement), avoiding closed-form-only limits, noise trading, reduction ignorance, overfitting, convention bugs, and untested implementation failures.
+
+## Table of Contents
+1. Unit 1 — Unit 1
+2. Capstone integration
+
+---
+
+## Unit 1 — Unit 1
+
+**Scope:** Covers the computational toolkit pricing instruments beyond closed-form reach and the numerical discipline that keeps model output trustworthy: the lattice methods (the binomial-tree construction where up-down factors calibrated to volatility build recombining price grids whose backward induction prices any path-independent payoff including American exercise per the risk-neutral section; the convergence-behavior understanding where tree prices approach continuous limits with node count, and the oscillation artifacts requiring smoothing or averaging; the trinomial and finite-difference extensions handling dividends, discrete events, and complex boundaries; the lattice-limitation map where path dependence, multiple state variables, and high dimensionality make trees impractical, motivating simulation); the Monte Carlo engine (the simulation architecture generating risk-neutral price paths whose discounted average payoff prices European-style claims with the standard-error precision scaling by square root of paths; the random-number discipline covering generator quality, normal-deviate methods, and seed management for reproducibility; the variance-reduction toolkit of antithetic variates, control variates against known-price instruments, and stratified sampling accelerating convergence by orders of magnitude; the path-generation schemes where discretization choices for stochastic-volatility and jump processes introduce bias requiring the small-timestep or exact-simulation treatments); the simulation-application domains (the Asian and barrier options whose path dependence lattices handle awkwardly but simulation naturally; the multi-asset and basket pricing where dimension kills lattices and Monte Carlo scales linearly; the counterparty and funding adjustments where simulation across exposure paths prices credit and margin valuation adjustments, the post-crisis XVA world; the real-option and investment applications where mining and energy project flexibility gets valued through the same machinery, connecting to the extraction-economics decisions of the companion course); the numerical-integration and transform methods (the quadrature approaches pricing European options under alternative distributions efficiently; the characteristic-function and FFT methods where Carr-Madan-style transforms price entire strike grids at once for models with known transforms, the workhorse of modern volatility-model calibration; the PDE-solver family for low-dimensional problems where finite-difference grids price American and barrier features with stability and boundary-condition care); the calibration practice (the calibration-problem definition where model parameters fit observed market prices so the model interpolates and extrapolates consistently with the surface; the objective-function construction weighing liquid instruments heavily with the regularization preventing overfit to noise; the optimization-mechanics covering gradient and derivative-free methods with local-minimum awareness; the recalibration-cadence discipline where daily surface moves require stable parameter evolution, and wild parameter jumps signal model misfit rather than market truth; the calibration-quality diagnostics where fitted-versus-observed price errors and stability under perturbation validate before trading use); the model-implementation hygiene (the unit-and-convention discipline where day counts, compounding, and quotation conventions cause more pricing errors than mathematics; the analytic-numerical cross-validation where closed-form cases test every new implementation; the convergence-testing protocol documenting precision against node counts, paths, and grid refinements; the performance-engineering awareness where vectorization and parallelization matter when calibration runs thousands of pricings; the library-and-dependability practice where pricing code receives version control, testing, and documentation per the systems traditions across this curriculum family); and the numerical-risk awareness (the discretization-error exposure where barrier monitoring frequency and timestep size change prices materially; the simulation-noise versus true-signal confusion where Monte Carlo standard errors get mistaken for market information; the high-dimension curse management where correlation-matrix estimation errors propagate through basket pricing; the model-numerics entanglement where calibration can absorb numerical bias into parameters, hiding both until conditions change) together with the section anti-patterns — the failure library: the closed-form-only pricer who cannot value American or path-dependent commodity options because lattice and simulation tools never got learned, remedied by the method-portfolio mastery; the Monte-Carlo-noise trader who reads simulation wiggle as pricing information without standard-error accounting, remedied by the precision discipline; the variance-reduction-ignorant whose thousand-path runs take hours where control variates deliver better precision in seconds, remedied by the reduction toolkit; the overfit calibrator whose model matches every illiquid wing quote and explodes between them, remedied by the weighting and regularization practice; the convention-bug victim whose day-count or compounding error shifts every price subtly, discovered only by counterparty dispute, remedied by the unit discipline and cross-validation; and the untested-implementer shipping pricing code never verified against analytic cases, remedied by the validation protocol with detection methods as the diagnostic.
+
+**What to teach (decompose and expand each bullet into framework-level treatment):**
+- Covers the computational toolkit pricing instruments beyond closed-form reach and the numerical discipline that keeps model output trustworthy
+- the lattice methods (the binomial-tree construction where up-down factors calibrated to volatility build recombining price grids whose backward induction prices any path-independent payoff including American exercise per the risk-neutral section
+- the convergence-behavior understanding where tree prices approach continuous limits with node count, and the oscillation artifacts requiring smoothing or averaging
+- the trinomial and finite-difference extensions handling dividends, discrete events, and complex boundaries
+- the lattice-limitation map where path dependence, multiple state variables, and high dimensionality make trees impractical, motivating simulation)
+- the Monte Carlo engine (the simulation architecture generating risk-neutral price paths whose discounted average payoff prices European-style claims with the standard-error precision scaling by square root of paths
+- the random-number discipline covering generator quality, normal-deviate methods, and seed management for reproducibility
+- the variance-reduction toolkit of antithetic variates, control variates against known-price instruments, and stratified sampling accelerating convergence by orders of magnitude
+- the path-generation schemes where discretization choices for stochastic-volatility and jump processes introduce bias requiring the small-timestep or exact-simulation treatments)
+- the simulation-application domains (the Asian and barrier options whose path dependence lattices handle awkwardly but simulation naturally
+- the multi-asset and basket pricing where dimension kills lattices and Monte Carlo scales linearly
+- the counterparty and funding adjustments where simulation across exposure paths prices credit and margin valuation adjustments, the post-crisis XVA world
+- the real-option and investment applications where mining and energy project flexibility gets valued through the same machinery, connecting to the extraction-economics decisions of the companion course)
+- the numerical-integration and transform methods (the quadrature approaches pricing European options under alternative distributions efficiently
+- the characteristic-function and FFT methods where Carr-Madan-style transforms price entire strike grids at once for models with known transforms, the workhorse of modern volatility-model calibration
+- the PDE-solver family for low-dimensional problems where finite-difference grids price American and barrier features with stability and boundary-condition care)
+- the calibration practice (the calibration-problem definition where model parameters fit observed market prices so the model interpolates and extrapolates consistently with the surface
+- the objective-function construction weighing liquid instruments heavily with the regularization preventing overfit to noise
+- the optimization-mechanics covering gradient and derivative-free methods with local-minimum awareness
+- the recalibration-cadence discipline where daily surface moves require stable parameter evolution, and wild parameter jumps signal model misfit rather than market truth
+- the calibration-quality diagnostics where fitted-versus-observed price errors and stability under perturbation validate before trading use)
+- the model-implementation hygiene (the unit-and-convention discipline where day counts, compounding, and quotation conventions cause more pricing errors than mathematics
+- the analytic-numerical cross-validation where closed-form cases test every new implementation
+- the convergence-testing protocol documenting precision against node counts, paths, and grid refinements
+- the performance-engineering awareness where vectorization and parallelization matter when calibration runs thousands of pricings
+- the library-and-dependability practice where pricing code receives version control, testing, and documentation per the systems traditions across this curriculum family)
+- and the numerical-risk awareness (the discretization-error exposure where barrier monitoring frequency and timestep size change prices materially
+- the simulation-noise versus true-signal confusion where Monte Carlo standard errors get mistaken for market information
+- the high-dimension curse management where correlation-matrix estimation errors propagate through basket pricing
+- the model-numerics entanglement where calibration can absorb numerical bias into parameters, hiding both until conditions change) together with the section anti-patterns — the failure library: the closed-form-only pricer who cannot value American or path-dependent commodity options because lattice and simulation tools never got learned, remedied by the method-portfolio mastery
+- the Monte-Carlo-noise trader who reads simulation wiggle as pricing information without standard-error accounting, remedied by the precision discipline
+- the variance-reduction-ignorant whose thousand-path runs take hours where control variates deliver better precision in seconds, remedied by the reduction toolkit
+- the overfit calibrator whose model matches every illiquid wing quote and explodes between them, remedied by the weighting and regularization practice
+- the convention-bug victim whose day-count or compounding error shifts every price subtly, discovered only by counterparty dispute, remedied by the unit discipline and cross-validation
+- and the untested-implementer shipping pricing code never verified against analytic cases, remedied by the validation protocol with detection methods as the diagnostic
+
+**Evidence anchors:** select documented examples and findings from the authoritative sources listed in SKILL.md that illustrate unit 1; grade every claim (established / convention / contested) before teaching it.
+
+**Misconceptions:** identify and correct the most common practitioner misconceptions about unit 1 in quantitative finance and derivatives pricing practice; state the corrected view explicitly.
+
+**Trade-offs to make explicit:** depth vs breadth, rigor vs speed, and the context-dependencies that change the recommendation for unit 1.
+
+## Unit 2 — Capstone integration
+
+**Purpose:** integrate every capability above on one realistic problem end to end.
+
+**Structure:** the learner takes a single problem in quantitative finance and derivatives pricing through each unit's framework in sequence, producing a coherent deliverable that mirrors real professional documentation. Evaluation criteria: internal consistency across artifacts, evidence discipline, honest trade-off statements, and demonstrable use of each unit's framework.

@@ -1,0 +1,24 @@
+{
+  "course_number": 4,
+  "course_title": "Agriculture & Energy",
+  "folder": "04-Agriculture-and-Energy",
+  "discipline_framing": "The market-intelligence discipline of the futures fundamental analyst for the agriculture and energy complexes — global weather patterns and meteorology, geopolitics, OPEC+ policies, USDA WASDE reports, and freight shipping routes as the live information flows that move crop, crude, product, and natural-gas futures",
+  "domain_short": "agriculture and energy market intelligence",
+  "audience": "Fundamental analysts of agricultural and energy futures who have the economics foundation and need the operational intelligence craft — reading weather models, decoding USDA and EIA reports, tracking OPEC+ policy and geopolitics, monitoring freight and shipping routes, and running the daily information workflow that converts these flows into balance-sheet and price assessment",
+  "sources": [
+    "The official report systems (the USDA WASDE, Crop Production, Prospective Plantings, and Grain Stocks publication methodology; the EIA weekly petroleum status and short-term energy outlook systems; the IEA and OPEC monthly oil market reports)",
+    "The meteorological and climate science infrastructure (the NOAA and ECMWF global model documentation, the ENSO diagnostic systems from the Climate Prediction Center, the agricultural meteorology tradition from university extension and WMO publications)",
+    "The geopolitical and energy-policy literature (the OPEC+ agreement history and quota documentation, the sanctions-regime research on Iran, Russia, and Venezuela, the chokepoint analyses from the EIA and maritime security traditions)",
+    "The maritime and freight intelligence tradition (the Baltic Exchange assessment methodology, the tanker and dry-bulk market reports, the AIS vessel-tracking data literature)",
+    "The commodity-intelligence vendor ecosystem (the crop-forecasting and energy-analytics services whose methodologies and track records the professional literature evaluates)",
+    "The event-study and data-release research (the market reaction literature around WASDE and EIA publications, the surprise-measurement and high-frequency reaction studies)",
+    "The remote-sensing and alternative-data literature (the satellite crop-monitoring research from NASA and ESA traditions, the floating-storage and refinery-utilization estimation methodologies)"
+  ],
+  "pitfalls": [
+    "Headline-reflex trading — reacting to weather maps, report numbers, and geopolitical news without the balance-sheet context that determines whether a headline matters, producing constant activity and random results",
+    "Model-run obsession — treating single weather model outputs as deterministic forecasts, ignoring ensemble spread, skill horizons, and the flip-flop dynamics that punish run-to-run traders",
+    "Report-day gambling — entering WASDE or EIA releases without pre-positioned scenarios, surprise thresholds, and reaction expectations, converting analysis into coin flips",
+    "Official-data monoculture — building views solely from USDA and EIA publications while private estimates, satellite data, and vessel tracking that markets actually trade ahead of reports stay unread",
+    "Static-flow assumption — modeling trade routes and freight as fixed infrastructure until chokepoint closures, canal drafts, and sanctions rerouting blow up delivered-cost positions"
+  ]
+}

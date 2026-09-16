@@ -1,0 +1,24 @@
+{
+  "course_number": 2,
+  "course_title": "Agricultural & Industrial Economics",
+  "folder": "02-Agricultural-and-Industrial-Economics",
+  "discipline_framing": "The commodity-economics foundation of the futures fundamental analyst discipline — agronomy, extraction economics, global supply chain logistics, and production cycles mapped into structural deficit or surplus analysis across the agricultural, energy, and metals complexes that carry a massive portion of CME volume",
+  "domain_short": "agricultural and industrial economics",
+  "audience": "Aspiring and practicing fundamental analysts of futures markets who need command of the physical-economics of crop, livestock, energy, and metals production — the supply-side literacy that separates genuine fundamental analysis from chart-reading in commodity complexes",
+  "sources": [
+    "The agricultural economics canon (the Gardner and Norton farm-economics traditions, the Alston and Wohlgenant supply-response research, the USDA ERS and university extension publication systems)",
+    "The theory of storage and commodity price literature (the Working-Hotelling tradition, the Brennan and Garbade storage models, the convenience-yield research connecting inventories to futures curve shape)",
+    "The official balance-sheet methodology (the USDA WASDE construction system, the FAO and IGC crop accounting frameworks, the EIA and IEA energy balance traditions)",
+    "The energy economics literature (the petroleum economics tradition from Adelman through the modern shale-cycle research, the natural gas market structure studies, the extraction-economics and Hotelling-rule lineage)",
+    "The mining and metals economics tradition (the Mikesell and Tilton mineral-economics lineage, the grade-decline and discovery-cycle literature, the smelting and refining economics studies)",
+    "The global logistics and freight economics literature (the maritime economics canon including the Stopford tradition, the grain and container logistics systems, the pipeline and rail economics of North American energy)",
+    "The futures market structure documentation (CME Group rulebooks and contract specifications, the cash-market and basis literature from the agricultural extension tradition)"
+  ],
+  "pitfalls": [
+    "Weather-narrative-without-balance-sheet — treating every rainfall headline as a price driver while ignoring where stocks sit and how much of the crop is already made, letting stories override arithmetic",
+    "Elasticity-uniformity — applying one supply-response logic across commodities whose production cycles run from six weeks (broilers) to ten years (mines), producing systematically wrong horizon calls",
+    "Storage-blindness — reading flat prices without the carry, inventories, and convenience yields that explain why the curve looks the way it does and what it signals about physical tightness",
+    "Logistics-free analysis — modeling global balances as if commodities teleport, missing the freight, basis, and chokepoint dynamics that decouple regional prices from world prices",
+    "Cycle-phase confusion — reading high prices as a demand event when the capital-investment cycle of production response is mid-turn, then getting run over by the supply wave that high prices already commissioned"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "course_number": 8,
+  "course_title": "Top-Down EIC Framework",
+  "folder": "08-Top-Down-EIC-Framework",
+  "discipline_framing": "The integrating methodology of the futures fundamental analyst discipline — mastering Economic, Industry, and Company/Asset level modeling to systematically filter global events into actionable trading signals, the framework course that converts every companion specialty into one repeatable analytical process",
+  "domain_short": "top-down EIC analysis",
+  "audience": "Fundamental analysts of futures and derivatives markets who possess macro, commodity, and instrument knowledge but need the systematic Economic-Industry-Company/Asset framework that filters global events through structured levels into documented, actionable trading signals with defined risk",
+  "sources": [
+    "The top-down investment tradition (the asset-allocation literature from the Brinson attribution lineage, the macro-strategy frameworks of the global-macro trading tradition, the economic-industry-company cascade from the equity-analysis canon)",
+    "The regime-classification literature (the growth-inflation state frameworks, the business-cycle and financial-conditions research, the policy-regime taxonomies from the central-bank and macro-finance traditions)",
+    "The industry-analysis canon (the Porter competitive-analysis tradition, the sector-rotation and asset-clock research, the value-chain and supply-network analysis literature)",
+    "The signal-construction and systematic-trading literature (the alpha-signal research tradition, the event-study methodology, the forecast-combination and signal-weighting literature)",
+    "The trading-thesis and decision documentation tradition (the investment-memo practices of the professional-management canon, the decision-journal and calibration literatures from the judgment-and-decision research)",
+    "The risk-management and portfolio-integration canon (the risk-budgeting tradition, the factor-exposure frameworks, the stress-testing and scenario-analysis literature)",
+    "The intelligence-cycle and workflow literature (the structured-analytic-techniques tradition, the monitoring-system design practices, the knowledge-management frameworks)"
+  ],
+  "pitfalls": [
+    "Analysis-without-action — cascading beautifully documented Economic-Industry-Asset analysis that never converts into positioned signals with entry, size, and invalidation because the filter's final stage was never built",
+    "Level-skipping — jumping from macro headline directly to trade idea without the industry and asset-level verification that catches transmission failures and already-priced information",
+    "Confirmation cascade — letting one level's narrative select the evidence at every subsequent level until the framework launders bias into systematic form",
+    "Static-framework fossilization — running last regime's EIC mappings, transmission elasticities, and signal thresholds through a changed market until the system confidently produces wrong answers",
+    "Signal-proliferation — generating more tradeable signals than capital, attention, and risk budget can support because filter stages lack explicit ranking and capacity discipline"
+  ]
+}

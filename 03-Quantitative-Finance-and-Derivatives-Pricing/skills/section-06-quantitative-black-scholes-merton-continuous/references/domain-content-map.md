@@ -1,0 +1,67 @@
+# Domain Content Map — Black-Scholes-Merton and Continuous-Time Pricing: The Benchmark Model
+
+Read this during Phase 3 (architecture) and Phase 4 (writing) of the module
+development workflow. Verify all factual claims and numbers against the
+authoritative sources before publishing (Phase 2 evidence base); flag
+anything disputed rather than repeating it.
+
+## Absorbed capabilities this module must produce
+1. Command the BSM benchmark through model architecture (GBM assumption, PDE derivation logic, d-term dual reading, input inventory with volatility as free parameter), formula behavior (bounds compliance, decay structure, carry sensitivities, limiting cases), the assumption-violation map (constant vol, continuous trading, lognormality, frictionlessness with impact triage), implied volatility (price inversion, consensus reading, smile discovery history, quoting conventions), the extension landscape (Black-76, Garman-Kohlhagen, carry generalizations, jump-stochastic families, Dupire local vol), Greeks-preview connections (analytic sensitivities, hedging-flow effects), and historical context (publication timing, practitioner critique, usage etiquette), avoiding fair-value literalism, sigma plugging, tail blindness, paper hedging, exercise confusion, and variant ignorance failures.
+
+## Table of Contents
+1. Unit 1 — Unit 1
+2. Capstone integration
+
+---
+
+## Unit 1 — Unit 1
+
+**Scope:** Covers the continuous-time option-pricing benchmark whose outputs serve as the coordinate system for all volatility analysis: the model architecture (the geometric-Brownian-motion assumption where prices follow drift plus proportional random shock with constant volatility, the model's defining simplification; the Black-Scholes-Merton partial-differential-equation derivation where a hedged portfolio of option and underlying eliminates randomness, forcing the PDE whose solution prices any European payoff; the formula anatomy where the d-terms encode risk-neutral exercise probabilities and the delta-like hedge ratio simultaneously, the dual reading that unlocks formula intuition; the input-inventory of spot, strike, time, rates, carry, and volatility where every input except volatility is observable, making volatility the model's free parameter and price-output its solver target); the formula-behavior literacy (the value-bound compliance where BSM prices respect intrinsic floors, parity, and monotonicity in every input, the sanity-check system analysts run mentally; the time-decay structure where theta accelerates near expiration for at-the-money options and behaves differently deep in or out; the rate-and-carry sensitivities relevant to commodity options where cost of carry replaces dividends; the limiting-behavior understanding where deep moneyness or long horizons reduce formulas to intrinsic and forward values, preventing numerical surprises); the assumption-violation map (the constant-volatility assumption contradicted by every empirical volatility series, whose failure the surface sections address; the continuous-trading assumption broken by gaps, limits, and overnight sessions with the jump-risk consequence; the lognormal-distribution assumption producing the fat-tail underestimation documented across crash history; the frictionless-market assumption ignoring the transaction costs that make continuous hedging infinitely expensive in reality; the violation-triage discipline ranking which breaks matter for which instruments, the practical model-judgment skill); the implied-volatility concept (the inversion practice where market option prices solve the BSM formula backward for the volatility input, converting dollars into a comparable coordinate; the implied-volatility-as-consensus reading where the market's aggregate expectation and risk-premium mixture gets quoted per option; the smile-observation history where the 1987 crash era revealed systematic implied-volatility variation across strikes that the constant-volatility model cannot produce, the empirical refutation that birthed modern volatility analysis; the quoting-convention mastery across commodity, FX, and financial options where markets trade in vol points, making BSM the industry's common language despite known falsehoods); the model-extension landscape (the Black-76 variant pricing options on futures and forwards with the discounting conventions that commodity analysts use daily; the Garman-Kohlhagen currency adaptation; the dividend-and-carry generalizations for equity and commodity contexts; the jump-diffusion and stochastic-volatility families extending the framework whose calibration complexity the numerical sections treat; the local-volatility construction where Dupire's formula recovers a state-dependent volatility consistent with the observed surface, the bridge between BSM and reality); the Greeks-preview connection (the analytic-derivative availability where BSM's closed form yields exact sensitivities computed as formula byproducts, the computational advantage motivating the next section's Greek analysis; the hedging-interpretation where delta-neutral replication inside the model becomes the market-making activity whose flow effects move underlying markets); the historical and philosophical context (the 1973 publication coincidence with CBOE launch whose timing accelerated adoption; the Nobel recognition of the Merton-Scholes contribution with Black's prior death; the practitioner-critique tradition from Taleb through the model-risk literature arguing BSM is a useful coordinate system mistaken too often for truth; the model-usage-etiquette where professionals state BSM outputs as implied quantities with assumption footnotes rather than fair-value proclamations) together with the section anti-patterns — the failure library: the fair-value literalist who quotes BSM output as the price rather than as one model's reading of market inputs, remedied by the coordinate-system etiquette; the sigma-plugger who inserts personal volatility forecasts into BSM without comparing to market implied levels, missing that the trade is the difference, remedied by the implied-versus-forecast discipline; the tail-blind seller whose short-volatility positions price crash risk at lognormal probabilities the empirical record contradicts, remedied by the violation-map literacy; the continuous-hedger on paper whose simulation ignores transaction costs until live execution exposes them, remedied by the friction-accounting practice; the American-European confusion applying closed-form formulas to early-exercise instruments, remedied by the lattice-method boundary from the prior section; and the extension-ignoramus who cannot distinguish Black-76 from Black-Scholes discounting conventions, producing systematic misquotes on futures options, remedied by the variant-conventions mastery with detection methods as the diagnostic.
+
+**What to teach (decompose and expand each bullet into framework-level treatment):**
+- Covers the continuous-time option-pricing benchmark whose outputs serve as the coordinate system for all volatility analysis
+- the model architecture (the geometric-Brownian-motion assumption where prices follow drift plus proportional random shock with constant volatility, the model's defining simplification
+- the Black-Scholes-Merton partial-differential-equation derivation where a hedged portfolio of option and underlying eliminates randomness, forcing the PDE whose solution prices any European payoff
+- the formula anatomy where the d-terms encode risk-neutral exercise probabilities and the delta-like hedge ratio simultaneously, the dual reading that unlocks formula intuition
+- the input-inventory of spot, strike, time, rates, carry, and volatility where every input except volatility is observable, making volatility the model's free parameter and price-output its solver target)
+- the formula-behavior literacy (the value-bound compliance where BSM prices respect intrinsic floors, parity, and monotonicity in every input, the sanity-check system analysts run mentally
+- the time-decay structure where theta accelerates near expiration for at-the-money options and behaves differently deep in or out
+- the rate-and-carry sensitivities relevant to commodity options where cost of carry replaces dividends
+- the limiting-behavior understanding where deep moneyness or long horizons reduce formulas to intrinsic and forward values, preventing numerical surprises)
+- the assumption-violation map (the constant-volatility assumption contradicted by every empirical volatility series, whose failure the surface sections address
+- the continuous-trading assumption broken by gaps, limits, and overnight sessions with the jump-risk consequence
+- the lognormal-distribution assumption producing the fat-tail underestimation documented across crash history
+- the frictionless-market assumption ignoring the transaction costs that make continuous hedging infinitely expensive in reality
+- the violation-triage discipline ranking which breaks matter for which instruments, the practical model-judgment skill)
+- the implied-volatility concept (the inversion practice where market option prices solve the BSM formula backward for the volatility input, converting dollars into a comparable coordinate
+- the implied-volatility-as-consensus reading where the market's aggregate expectation and risk-premium mixture gets quoted per option
+- the smile-observation history where the 1987 crash era revealed systematic implied-volatility variation across strikes that the constant-volatility model cannot produce, the empirical refutation that birthed modern volatility analysis
+- the quoting-convention mastery across commodity, FX, and financial options where markets trade in vol points, making BSM the industry's common language despite known falsehoods)
+- the model-extension landscape (the Black-76 variant pricing options on futures and forwards with the discounting conventions that commodity analysts use daily
+- the Garman-Kohlhagen currency adaptation
+- the dividend-and-carry generalizations for equity and commodity contexts
+- the jump-diffusion and stochastic-volatility families extending the framework whose calibration complexity the numerical sections treat
+- the local-volatility construction where Dupire's formula recovers a state-dependent volatility consistent with the observed surface, the bridge between BSM and reality)
+- the Greeks-preview connection (the analytic-derivative availability where BSM's closed form yields exact sensitivities computed as formula byproducts, the computational advantage motivating the next section's Greek analysis
+- the hedging-interpretation where delta-neutral replication inside the model becomes the market-making activity whose flow effects move underlying markets)
+- the historical and philosophical context (the 1973 publication coincidence with CBOE launch whose timing accelerated adoption
+- the Nobel recognition of the Merton-Scholes contribution with Black's prior death
+- the practitioner-critique tradition from Taleb through the model-risk literature arguing BSM is a useful coordinate system mistaken too often for truth
+- the model-usage-etiquette where professionals state BSM outputs as implied quantities with assumption footnotes rather than fair-value proclamations) together with the section anti-patterns — the failure library: the fair-value literalist who quotes BSM output as the price rather than as one model's reading of market inputs, remedied by the coordinate-system etiquette
+- the sigma-plugger who inserts personal volatility forecasts into BSM without comparing to market implied levels, missing that the trade is the difference, remedied by the implied-versus-forecast discipline
+- the tail-blind seller whose short-volatility positions price crash risk at lognormal probabilities the empirical record contradicts, remedied by the violation-map literacy
+- the continuous-hedger on paper whose simulation ignores transaction costs until live execution exposes them, remedied by the friction-accounting practice
+- the American-European confusion applying closed-form formulas to early-exercise instruments, remedied by the lattice-method boundary from the prior section
+- and the extension-ignoramus who cannot distinguish Black-76 from Black-Scholes discounting conventions, producing systematic misquotes on futures options, remedied by the variant-conventions mastery with detection methods as the diagnostic
+
+**Evidence anchors:** select documented examples and findings from the authoritative sources listed in SKILL.md that illustrate unit 1; grade every claim (established / convention / contested) before teaching it.
+
+**Misconceptions:** identify and correct the most common practitioner misconceptions about unit 1 in quantitative finance and derivatives pricing practice; state the corrected view explicitly.
+
+**Trade-offs to make explicit:** depth vs breadth, rigor vs speed, and the context-dependencies that change the recommendation for unit 1.
+
+## Unit 2 — Capstone integration
+
+**Purpose:** integrate every capability above on one realistic problem end to end.
+
+**Structure:** the learner takes a single problem in quantitative finance and derivatives pricing through each unit's framework in sequence, producing a coherent deliverable that mirrors real professional documentation. Evaluation criteria: internal consistency across artifacts, evidence discipline, honest trade-off statements, and demonstrable use of each unit's framework.

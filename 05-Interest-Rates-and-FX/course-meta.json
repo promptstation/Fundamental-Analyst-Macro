@@ -1,0 +1,24 @@
+{
+  "course_number": 5,
+  "course_title": "Interest Rates & FX",
+  "folder": "05-Interest-Rates-and-FX",
+  "discipline_framing": "The rates and currencies discipline of the futures fundamental analyst — Federal Reserve operations, global yield curves, fixed-income mathematics, and international trade balances as the force field within which every other futures complex prices, and a primary trading domain in its own right",
+  "domain_short": "interest rates and foreign exchange",
+  "audience": "Fundamental analysts of futures markets who need dedicated command of rate and currency complexes: Fed and central-bank operations, global curve analysis, fixed-income mathematics, FX market structure and flows, and the trade-balance systems connecting currencies to the real economy",
+  "sources": [
+    "The Federal Reserve operational literature (the implementation frameworks from the Federal Reserve Bank of New York, the post-2008 and post-2020 operating-system changes, the FOMC communication and SEP documentation)",
+    "The fixed-income analytics canon (the Tuckman Bond-Markets-Strategies-and-Tools tradition, the Fabozzi handbook lineage, the duration-convexity and curve-arithmetic discipline)",
+    "The term-structure research (the expectations-hypothesis tests, the term-premium estimation tradition including the ACM and Kim-Wright models, the yield-curve and recession literature)",
+    "The international finance canon (the parity-conditions literature, the exchange-rate-determination research from monetary through balance-of-payments approaches, the Krugman-Obstfeld textbook tradition)",
+    "The FX market structure literature (the BIS triennial survey tradition, the flow and positioning research, the carry-trade and crash literature from the Brunnermeier-Nagel-Vayanos lineage)",
+    "The central-bank policy research (the inflation-targeting history, the unconventional-policy evaluations from QE through yield-curve control, the divergence and spillover studies)",
+    "The global dollar system literature (the cross-currency basis research, the EME vulnerability frameworks from the BIS tradition, the safe-haven and reserve-currency studies)"
+  ],
+  "pitfalls": [
+    "Level-versus-change confusion — quoting rates and curve positions without the change dynamics that actually generate futures P-and-L, positioning on levels the market priced months ago",
+    "Single-central-bank tunnel vision — analyzing Fed policy in isolation while global curve linkages, divergence trades, and spillover flows drive the actual moves",
+    "Parity-violation naivety — treating PPP or UIP deviations as arbitrage opportunities rather than the documented risk-premium and constraint phenomena they represent",
+    "Duration-blind sizing — expressing rate views through instruments whose DV01, convexity, and option features were never computed, discovering leverage through losses",
+    "Trade-balance mechanical reading — forecasting FX from trade-flow arithmetic while capital flows, policy divergence, and positioning dominate the actual price formation"
+  ]
+}

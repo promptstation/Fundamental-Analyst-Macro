@@ -1,0 +1,24 @@
+{
+  "course_number": 6,
+  "course_title": "Equity Indices",
+  "folder": "06-Equity-Indices",
+  "discipline_framing": "The equity-index discipline of the futures fundamental analyst — systemic market liquidity, macroeconomic indicators, and top-down sector rotation analyzed at the aggregate index level rather than through individual stock picking, trading the market as a macro instrument",
+  "domain_short": "equity index analysis",
+  "audience": "Fundamental analysts of futures markets who need dedicated command of equity index complexes: index construction and products, systemic liquidity analysis, the macro-to-index transmission of rates and growth, sector rotation frameworks, volatility products, and positioning and flow dynamics at the aggregate level",
+  "sources": [
+    "The index-construction and product literature (the S&P-Dow-Jones and MSCI methodology documentation, the index-fund and ETF growth research, the benchmark-industry studies)",
+    "The market-microstructure and liquidity tradition (the O'Hara and Harris microstructure lineage, the dealer-capacity and market-fragility research from the post-2008 literature, the flash-crash and liquidity-spiral studies)",
+    "The equity-valuation canon (the dividend-discount and earnings-power traditions, the equity-risk-premium research from the Damodaran and Dimson-Marsh-Staunton lineages, the Fed-model and yield-gap debates)",
+    "The factor-investment literature (the Fama-French tradition through the factor-zoo critiques, the risk-versus-mispricing debates, the crowding and decay research)",
+    "The sector-rotation and business-cycle tradition (the asset-clock frameworks, the cyclical-defensive rotation evidence, the macro-sector sensitivity research)",
+    "The volatility-complex literature (the VIX methodology, the variance-risk-premium research, the volatility-product ecosystem studies including the 2018 XIV episode documentation)",
+    "The flows and positioning research (the passive-active shift studies, the buyback and corporate-flow literature, the options-market-maker gamma-flow research, the sentiment-indicator tradition)"
+  ],
+  "pitfalls": [
+    "Stock-picker mindset at index level — analyzing aggregate markets through single-name stories and anecdotal leaders instead of the liquidity, valuation, flow, and macro systems that actually move indices",
+    "Liquidity illusion — reading calm-market depth as crisis capacity, ignoring that dealer balance-sheet constraints make index liquidity state-dependent exactly when positions need exit",
+    "Factor-crowding blindness — holding factor or rotation exposures without knowing how much of the historical premium current positioning has already consumed",
+    "Volatility-product naivety — treating VIX futures and volatility ETPs as direct fear gauges while their term-structure carry mechanics silently drain or amplify positions",
+    "Single-market provincialism — modeling one national index in isolation while global liquidity, dollar funding, and cross-listed flows drive synchronized moves across venues"
+  ]
+}

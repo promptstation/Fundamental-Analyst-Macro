@@ -1,0 +1,68 @@
+# Domain Content Map — Mapping the CME Complexes: Contracts, Margins, and Cross-Market Analysis
+
+Read this during Phase 3 (architecture) and Phase 4 (writing) of the module
+development workflow. Verify all factual claims and numbers against the
+authoritative sources before publishing (Phase 2 evidence base); flag
+anything disputed rather than repeating it.
+
+## Absorbed capabilities this module must produce
+1. Map the exchange complexes through the agricultural suite (grain and crush triangle, wheat classes, livestock settlement, dairy formulas, lumber linkage), the energy suite (WTI delivery mechanics, product cracks, Henry Hub regimes, power adjacency, COMEX metals with divergence episodes), the margin and spread system (crush and crack construction, feed margins, calendar spreads as storage expression, inter-commodity substitution), cross-market practice (arbitrage windows, complex coherence, global venues, currency overlay), contract mechanics (delivery versus cash settlement, notice days, limits and reporting, evolution monitoring), data infrastructure (COT taxonomy, volume analytics, delivery-point stocks, data calendars), and strategy synthesis (view-to-instrument translation, liquidity assessment, portfolio integration, expression discipline), avoiding expression failure, class confusion, settlement surprise, venue isolation, spread blindness, and COT literalism failures.
+
+## Table of Contents
+1. Unit 1 — Unit 1
+2. Capstone integration
+
+---
+
+## Unit 1 — Unit 1
+
+**Scope:** Covers the exchange-specific market map connecting economic analysis to tradable instruments across the complexes this course studies: the agricultural-suite mapping (the Chicago grain complex where corn, soybeans, and their product contracts in meal and oil form the crush triangle, with wheat classes spanning Chicago soft red, Kansas City hard red winter, and Minneapolis spring whose protein and functionality differences segment markets; the livestock complex in live cattle, feeder cattle, and lean hogs with the cash-settlement and index-feed mechanisms; the dairy complex in Class III milk, butter, and cheese whose pricing formulas connect to federal milk marketing orders; the soft-adjacent literacy in lumber whose housing-cycle linkage imports macro demand directly); the energy-suite mapping (the crude complex spanning WTI at Cushing with its delivery mechanics and the Houston-linked variants, plus the product contracts in RBOB gasoline and ULSD diesel forming the crack-spread trading system; the natural gas contract at Henry Hub with its weather-driven volatility regime and the emerging LNG-linked pricing; the power and emissions adjacency whose regional structures analysts monitor for cross-complex transmission; the metals complement at COMEX including gold and silver with their macro pricing, and copper whose LME-COMEX dual listing created the 2024 divergence episode as a market-structure case study); the margin and spread system (the crush-margin trading where soybean, meal, and oil positions combine into processing economics per the livestock and price-formation sections; the crack-spread construction in 3-2-1 and 5-3-2 ratios matching refinery configurations; the feed-margin and cattle-feeding spreads connecting grain costs to livestock revenue; the calendar-spread trading where intra-crop-year and old-new positions express storage and balance views directly per the theory-of-storage discipline; the inter-commodity spreads including corn-wheat feed substitution and oil-share ratios whose economics trace to demand competition); the cross-market analysis practice (the arbitrage-window monitoring where delivered-price comparisons across origins, per the logistics section, identify flow shifts before trade data confirms; the complex-coherence checking where an analyst's corn view must reconcile with meal, oil, livestock, ethanol, and crude positions across the interlinked sheets; the global-venue awareness including Dalian and Zhengzhou commodity markets, ICE agricultural and energy contracts, and LME metals whose price relationships with CME contracts carry information and occasionally dislocation; the currency-hedging overlay where dollar-denominated contracts import FX exposure for non-US analysts and traders per the macro companion's parity conditions); the contract-mechanics mastery (the delivery-systems comparison across physical-delivery grains and crude versus cash-settled livestock and gas with the convergence implications from the institutions section; the first-notice-day and roll discipline governing position lifecycle management; the position-limit and reporting regimes across agricultural and energy contracts with the accountability-level structure; the contract-evolution monitoring where exchange listings, specification changes, and delistings reshape the tradable map); the data-and-information infrastructure (the CFTC commitment-of-traders taxonomy distinguishing commercial, swap-dealer, managed-money, and reportable positions with the interpretation cautions from the institutions section; the exchange volume and open-interest analytics across complexes; the daily-bulletin data including stocks at delivery points whose Cushing and elevator figures move spreads; the vendor and government data calendar integrating USDA, EIA, and exchange releases into the analysis workflow of the balance-sheet and weather sections); and the complex-strategy synthesis (the fundamental-view-to-instrument translation where balance, cycle, and weather conclusions select between outright, spread, margin, and option expressions by risk profile and horizon; the liquidity-and-cost assessment where bid-ask, margin requirements, and roll costs filter strategy feasibility; the portfolio-view integration where cross-complex positions net shared exposures including the dollar, growth, and weather factors; the expression-discipline matching conviction strength to instrument asymmetry, with options for event risk and spreads for relative views) together with the section anti-patterns — the failure library: the economic-view-without-expression analyst whose correct balance conclusion loses money through wrong instrument selection, remedied by the translation discipline; the wheat-class confuser who arbitrages KC wheat against Chicago without protein and functionality context, remedied by the class-segmentation literacy; the settlement-mechanics surprised who holds into delivery periods without understanding notice and convergence rules, remedied by the mechanics mastery; the single-venue isolationist whose Chicago view ignores Dalian, LME, or ICE information and dislocations, remedied by the global-venue awareness; the spread-blind directional trader paying full volatility for what is a relative-value view, remedied by the spread-system fluency; and the COT-literalist who treats positioning reports as signals without commercial-hedging context, remedied by the interpretation cautions with detection methods as the diagnostic.
+
+**What to teach (decompose and expand each bullet into framework-level treatment):**
+- Covers the exchange-specific market map connecting economic analysis to tradable instruments across the complexes this course studies
+- the agricultural-suite mapping (the Chicago grain complex where corn, soybeans, and their product contracts in meal and oil form the crush triangle, with wheat classes spanning Chicago soft red, Kansas City hard red winter, and Minneapolis spring whose protein and functionality differences segment markets
+- the livestock complex in live cattle, feeder cattle, and lean hogs with the cash-settlement and index-feed mechanisms
+- the dairy complex in Class III milk, butter, and cheese whose pricing formulas connect to federal milk marketing orders
+- the soft-adjacent literacy in lumber whose housing-cycle linkage imports macro demand directly)
+- the energy-suite mapping (the crude complex spanning WTI at Cushing with its delivery mechanics and the Houston-linked variants, plus the product contracts in RBOB gasoline and ULSD diesel forming the crack-spread trading system
+- the natural gas contract at Henry Hub with its weather-driven volatility regime and the emerging LNG-linked pricing
+- the power and emissions adjacency whose regional structures analysts monitor for cross-complex transmission
+- the metals complement at COMEX including gold and silver with their macro pricing, and copper whose LME-COMEX dual listing created the 2024 divergence episode as a market-structure case study)
+- the margin and spread system (the crush-margin trading where soybean, meal, and oil positions combine into processing economics per the livestock and price-formation sections
+- the crack-spread construction in 3-2-1 and 5-3-2 ratios matching refinery configurations
+- the feed-margin and cattle-feeding spreads connecting grain costs to livestock revenue
+- the calendar-spread trading where intra-crop-year and old-new positions express storage and balance views directly per the theory-of-storage discipline
+- the inter-commodity spreads including corn-wheat feed substitution and oil-share ratios whose economics trace to demand competition)
+- the cross-market analysis practice (the arbitrage-window monitoring where delivered-price comparisons across origins, per the logistics section, identify flow shifts before trade data confirms
+- the complex-coherence checking where an analyst's corn view must reconcile with meal, oil, livestock, ethanol, and crude positions across the interlinked sheets
+- the global-venue awareness including Dalian and Zhengzhou commodity markets, ICE agricultural and energy contracts, and LME metals whose price relationships with CME contracts carry information and occasionally dislocation
+- the currency-hedging overlay where dollar-denominated contracts import FX exposure for non-US analysts and traders per the macro companion's parity conditions)
+- the contract-mechanics mastery (the delivery-systems comparison across physical-delivery grains and crude versus cash-settled livestock and gas with the convergence implications from the institutions section
+- the first-notice-day and roll discipline governing position lifecycle management
+- the position-limit and reporting regimes across agricultural and energy contracts with the accountability-level structure
+- the contract-evolution monitoring where exchange listings, specification changes, and delistings reshape the tradable map)
+- the data-and-information infrastructure (the CFTC commitment-of-traders taxonomy distinguishing commercial, swap-dealer, managed-money, and reportable positions with the interpretation cautions from the institutions section
+- the exchange volume and open-interest analytics across complexes
+- the daily-bulletin data including stocks at delivery points whose Cushing and elevator figures move spreads
+- the vendor and government data calendar integrating USDA, EIA, and exchange releases into the analysis workflow of the balance-sheet and weather sections)
+- and the complex-strategy synthesis (the fundamental-view-to-instrument translation where balance, cycle, and weather conclusions select between outright, spread, margin, and option expressions by risk profile and horizon
+- the liquidity-and-cost assessment where bid-ask, margin requirements, and roll costs filter strategy feasibility
+- the portfolio-view integration where cross-complex positions net shared exposures including the dollar, growth, and weather factors
+- the expression-discipline matching conviction strength to instrument asymmetry, with options for event risk and spreads for relative views) together with the section anti-patterns — the failure library: the economic-view-without-expression analyst whose correct balance conclusion loses money through wrong instrument selection, remedied by the translation discipline
+- the wheat-class confuser who arbitrages KC wheat against Chicago without protein and functionality context, remedied by the class-segmentation literacy
+- the settlement-mechanics surprised who holds into delivery periods without understanding notice and convergence rules, remedied by the mechanics mastery
+- the single-venue isolationist whose Chicago view ignores Dalian, LME, or ICE information and dislocations, remedied by the global-venue awareness
+- the spread-blind directional trader paying full volatility for what is a relative-value view, remedied by the spread-system fluency
+- and the COT-literalist who treats positioning reports as signals without commercial-hedging context, remedied by the interpretation cautions with detection methods as the diagnostic
+
+**Evidence anchors:** select documented examples and findings from the authoritative sources listed in SKILL.md that illustrate unit 1; grade every claim (established / convention / contested) before teaching it.
+
+**Misconceptions:** identify and correct the most common practitioner misconceptions about unit 1 in agricultural and industrial economics practice; state the corrected view explicitly.
+
+**Trade-offs to make explicit:** depth vs breadth, rigor vs speed, and the context-dependencies that change the recommendation for unit 1.
+
+## Unit 2 — Capstone integration
+
+**Purpose:** integrate every capability above on one realistic problem end to end.
+
+**Structure:** the learner takes a single problem in agricultural and industrial economics through each unit's framework in sequence, producing a coherent deliverable that mirrors real professional documentation. Evaluation criteria: internal consistency across artifacts, evidence discipline, honest trade-off statements, and demonstrable use of each unit's framework.

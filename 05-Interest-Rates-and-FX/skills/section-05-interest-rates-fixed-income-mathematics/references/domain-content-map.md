@@ -1,0 +1,65 @@
+# Domain Content Map — Fixed-Income Mathematics: Duration, Convexity, and Position Arithmetic
+
+Read this during Phase 3 (architecture) and Phase 4 (writing) of the module
+development workflow. Verify all factual claims and numbers against the
+authoritative sources before publishing (Phase 2 evidence base); flag
+anything disputed rather than repeating it.
+
+## Absorbed capabilities this module must produce
+1. Run fixed-income mathematics through present-value foundations (discounting conventions, yield families, price-yield geometry), the duration system (Macaulay intuition, modified sensitivity, DV01 coordinates, effective duration for options), convexity discipline (second-order corrections, negative-convexity instruments, cost-benefit break-evens), cash-bond arithmetic (accrued interest, coupon roll, CTD analysis, repo carry), portfolio aggregation (DV01 summation by bucket, key-rate decomposition, scenario revaluation, risk contribution), cross-instrument conversion (futures-cash equivalence, swap translation, cross-currency normalization, option deltas), and arithmetic discipline (unit consistency, sign verification, precision awareness, calculation validation), avoiding duration-only hedging, notional sizing, convention confusion, negative-convexity collection, linear extrapolation, and unchecked calculators failures.
+
+## Table of Contents
+1. Unit 1 — Unit 1
+2. Capstone integration
+
+---
+
+## Unit 1 — Unit 1
+
+**Scope:** Covers the quantitative toolkit converting rate views into precisely sized positions with known risk characteristics: the present-value foundation (the discounting arithmetic across compounding conventions where continuous, annual, and money-market discounting produce different present values for identical cash flows, the convention literacy preventing systematic error; the yield-definition family where yield-to-maturity, money-market yields, and bond-equivalent conventions coexist with conversion formulas analysts apply fluently; the price-yield relationship whose inverse convexity shapes every fixed-income risk measure that follows); the duration system (the Macaulay-duration concept measuring cash-flow weighted timing whose intuition anchors the mathematics; the modified-duration measure quantifying first-order price sensitivity per unit yield change, the workhorse risk metric; the dollar-duration and DV01 formulations converting percentage sensitivity into currency exposure per basis point, the position-sizing coordinate dealers actually use; the effective-duration extension for embedded-option instruments where cash flows shift with rates, requiring model-based sensitivity per the numerical methods of the derivatives companion); the convexity discipline (the second-order correction where duration-only estimates fail for large moves, with the convexity-gain asymmetry favoring long-convexity positions in volatile markets; the negative-convexity instruments including mortgage-backed securities and callable structures whose convexity selling compensates through yield with the extension-contraction risk mechanics; the convexity-cost-benefit calculation where buying convexity carries daily carry expense whose break-even volatility analysis determines value per the gamma-analogue reasoning of the options sections); the cash-bond arithmetic (the accrued-interest and invoice-price computation where clean and dirty price conventions govern settlement and P-and-L measurement; the coupon-and-roll mechanics where income accrual and maturity progression generate return components distinct from yield moves; the cheapest-to-deliver analysis for Treasury futures where conversion factors, delivery options, and net-basis calculations connect cash and futures per the derivatives companion's rate section; the repo-financing arithmetic where carry positions combine bond yield against funding cost with the specialness and general-collateral distinction); the portfolio-aggregation mathematics (the position-level-to-portfolio DV01 summation where curve-point sensitivities aggregate by tenor bucket revealing exposure distribution; the key-rate-duration decomposition isolating sensitivity at specific curve points, enabling hedging of non-parallel risk per the curve-analytics section; the scenario-revaluation discipline where full repricing under parallel, steepening, flattening, and stress shifts supersedes linear approximation beyond small moves; the risk-contribution analysis identifying which positions dominate portfolio sensitivity, the concentration diagnostic); the cross-instrument conversion fluency (the futures-to-cash equivalence where contract DV01 translates views into contract counts with the hedge-ratio adjustments for yield-beta differences; the swap-to-futures translation where duration-equivalent positioning bridges OTC and exchange expression; the cross-currency-duration comparison where Japanese, European, and US instruments carry different DV01-per-unit-notional requiring normalization before comparison; the option-adjusted-measures where delta converts option positions into futures-equivalent exposure per the Greeks discipline); the arithmetic-discipline practice (the unit-consistency habit where basis points, percent yields, and price points never mix without conversion; the sign-and-direction verification where long-short conventions across instruments get checked before execution; the rounding-and-precision awareness where small positions accumulate meaningful error in large books; the spreadsheet-and-code validation where financial calculators get cross-checked against known cases per the implementation-hygiene traditions) together with the section anti-patterns — the failure library: the duration-only hedger whose large-move losses expose convexity exposure never measured, remediated by the second-order discipline; the notional-sizer who allocates by position value instead of DV01, discovering leverage differences across instruments too late, remediated by the sensitivity-based sizing; the convention-confuser whose yield comparisons across money-market and bond conventions misrank alternatives, remediated by the conversion fluency; the negative-convexity collector whose yield pickup masks extension risk until rates move, remediated by the embedded-option mechanics literacy; the linear-extrapolator whose scenario analysis stops at plus-ten-basis-point moves while crises deliver fifty, remediated by the full-revaluation discipline; and the unchecked-calculator victim whose spreadsheet errors propagate through every derived position, remediated by the validation practice with detection methods as the diagnostic.
+
+**What to teach (decompose and expand each bullet into framework-level treatment):**
+- Covers the quantitative toolkit converting rate views into precisely sized positions with known risk characteristics
+- the present-value foundation (the discounting arithmetic across compounding conventions where continuous, annual, and money-market discounting produce different present values for identical cash flows, the convention literacy preventing systematic error
+- the yield-definition family where yield-to-maturity, money-market yields, and bond-equivalent conventions coexist with conversion formulas analysts apply fluently
+- the price-yield relationship whose inverse convexity shapes every fixed-income risk measure that follows)
+- the duration system (the Macaulay-duration concept measuring cash-flow weighted timing whose intuition anchors the mathematics
+- the modified-duration measure quantifying first-order price sensitivity per unit yield change, the workhorse risk metric
+- the dollar-duration and DV01 formulations converting percentage sensitivity into currency exposure per basis point, the position-sizing coordinate dealers actually use
+- the effective-duration extension for embedded-option instruments where cash flows shift with rates, requiring model-based sensitivity per the numerical methods of the derivatives companion)
+- the convexity discipline (the second-order correction where duration-only estimates fail for large moves, with the convexity-gain asymmetry favoring long-convexity positions in volatile markets
+- the negative-convexity instruments including mortgage-backed securities and callable structures whose convexity selling compensates through yield with the extension-contraction risk mechanics
+- the convexity-cost-benefit calculation where buying convexity carries daily carry expense whose break-even volatility analysis determines value per the gamma-analogue reasoning of the options sections)
+- the cash-bond arithmetic (the accrued-interest and invoice-price computation where clean and dirty price conventions govern settlement and P-and-L measurement
+- the coupon-and-roll mechanics where income accrual and maturity progression generate return components distinct from yield moves
+- the cheapest-to-deliver analysis for Treasury futures where conversion factors, delivery options, and net-basis calculations connect cash and futures per the derivatives companion's rate section
+- the repo-financing arithmetic where carry positions combine bond yield against funding cost with the specialness and general-collateral distinction)
+- the portfolio-aggregation mathematics (the position-level-to-portfolio DV01 summation where curve-point sensitivities aggregate by tenor bucket revealing exposure distribution
+- the key-rate-duration decomposition isolating sensitivity at specific curve points, enabling hedging of non-parallel risk per the curve-analytics section
+- the scenario-revaluation discipline where full repricing under parallel, steepening, flattening, and stress shifts supersedes linear approximation beyond small moves
+- the risk-contribution analysis identifying which positions dominate portfolio sensitivity, the concentration diagnostic)
+- the cross-instrument conversion fluency (the futures-to-cash equivalence where contract DV01 translates views into contract counts with the hedge-ratio adjustments for yield-beta differences
+- the swap-to-futures translation where duration-equivalent positioning bridges OTC and exchange expression
+- the cross-currency-duration comparison where Japanese, European, and US instruments carry different DV01-per-unit-notional requiring normalization before comparison
+- the option-adjusted-measures where delta converts option positions into futures-equivalent exposure per the Greeks discipline)
+- the arithmetic-discipline practice (the unit-consistency habit where basis points, percent yields, and price points never mix without conversion
+- the sign-and-direction verification where long-short conventions across instruments get checked before execution
+- the rounding-and-precision awareness where small positions accumulate meaningful error in large books
+- the spreadsheet-and-code validation where financial calculators get cross-checked against known cases per the implementation-hygiene traditions) together with the section anti-patterns — the failure library: the duration-only hedger whose large-move losses expose convexity exposure never measured, remediated by the second-order discipline
+- the notional-sizer who allocates by position value instead of DV01, discovering leverage differences across instruments too late, remediated by the sensitivity-based sizing
+- the convention-confuser whose yield comparisons across money-market and bond conventions misrank alternatives, remediated by the conversion fluency
+- the negative-convexity collector whose yield pickup masks extension risk until rates move, remediated by the embedded-option mechanics literacy
+- the linear-extrapolator whose scenario analysis stops at plus-ten-basis-point moves while crises deliver fifty, remediated by the full-revaluation discipline
+- and the unchecked-calculator victim whose spreadsheet errors propagate through every derived position, remediated by the validation practice with detection methods as the diagnostic
+
+**Evidence anchors:** select documented examples and findings from the authoritative sources listed in SKILL.md that illustrate unit 1; grade every claim (established / convention / contested) before teaching it.
+
+**Misconceptions:** identify and correct the most common practitioner misconceptions about unit 1 in interest rates and foreign exchange practice; state the corrected view explicitly.
+
+**Trade-offs to make explicit:** depth vs breadth, rigor vs speed, and the context-dependencies that change the recommendation for unit 1.
+
+## Unit 2 — Capstone integration
+
+**Purpose:** integrate every capability above on one realistic problem end to end.
+
+**Structure:** the learner takes a single problem in interest rates and foreign exchange through each unit's framework in sequence, producing a coherent deliverable that mirrors real professional documentation. Evaluation criteria: internal consistency across artifacts, evidence discipline, honest trade-off statements, and demonstrable use of each unit's framework.
