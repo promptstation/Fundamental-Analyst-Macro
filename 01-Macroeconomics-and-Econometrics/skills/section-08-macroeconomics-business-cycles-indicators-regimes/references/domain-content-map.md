@@ -1,0 +1,72 @@
+# Domain Content Map — Business Cycles, Indicators, and Regimes: The Cycle-Reading System
+
+Read this during Phase 3 (architecture) and Phase 4 (writing) of the module
+development workflow. Verify all factual claims and numbers against the
+authoritative sources before publishing (Phase 2 evidence base); flag
+anything disputed rather than repeating it.
+
+## Absorbed capabilities this module must produce
+1. Read business cycles through the cycle concept (NBER dating criteria, classical versus growth cycles, financial-cycle overlay), the indicator system (leading-coincident-lagging composites, diffusion logic, survey reading rules), high-frequency monitoring (activity trackers, weekly indicators, freshness and break detection), practitioner mechanism theories (accelerator-multiplier, inventory cycle, credit cycle, policy lag, shock-propagation), asset-clock mapping (rotation sequences, phase base rates, late-cycle indicators, transition ambiguity), the regime framework (inflation-growth quadrants, policy overlays, identification methods, conditional correlations).
+2. Position-assessment craft (triangulation, turning-point humility, revision robustness, horizon mapping), and cross-market integration (synchronization, desynchronization opportunities, commodity overlays), avoiding single-indicator timing, clock literalism, survey misreading, stale data, regime blindness, and exact-turn prediction failures.
+
+## Table of Contents
+1. Unit 1 — Unit 1
+2. Capstone integration
+
+---
+
+## Unit 1 — Unit 1
+
+**Scope:** Covers the cycle framework through which the fundamental analyst organizes every macro variable into a coherent market regime: the cycle concept (the expansion-peak-contraction-trough anatomy with the NBER dating committee's depth-diffusion-duration criteria; the classical versus growth-cycle distinction where output declines versus below-trend growth define different cycle taxonomies; the cycle-regularities across history with the shortening and lengthening debates; the financial-cycle overlay whose longer credit and property rhythms interact with the business cycle); the indicator system (the leading-indicator tradition including yield-curve slope, permits, claims, and spreads with the Conference Board composite construction and its mixed forecasting record; the coincident and lagging composites for cycle-phase confirmation; the diffusion-index logic where breadth of improvement matters more than single-series strength; the survey-indicator family including PMI, ISM, and confidence surveys with the level-versus-change reading rules and the fifty-threshold folklore correction); the high-frequency monitoring stack (the activity-tracker systems combining employment, mobility, energy, and payment data into nowcasts; the weekly-and-daily indicators filling monthly data gaps; the indicator-freshness discipline where stale series mislead at turning points; the regime-break detection distinguishing genuine cycle turns from calendar and weather noise); the cycle-mechanism theories for practitioners (the accelerator-multiplier interaction generating endogenous fluctuations; the inventory cycle as the shortest and most tradable rhythm with its turns visible in the GDP components of the national-accounts section; the credit cycle where lending standards, leverage, and asset prices reinforce through financial accelerators; the policy-cycle contribution where reaction lags engineer overshoot; the shock-versus-propagation distinction separating causes from amplifiers); the asset-clock mapping (the sector-rotation sequence where bonds, equities, commodities, and cash alternate leadership across cycle phases with the Merrill-style clock convention and its documented imperfections; the phase-conditional asset performance base rates providing priors rather than predictions; the late-cycle indicator set including labor-market tightness, credit spreads, and inventory positioning; the transition-ambiguity discipline where phases overlap and the clock skips); the regime framework (the inflation-growth four-quadrant regime taxonomy driving cross-asset behavior; the monetary-policy regime overlay from the central-bank section; the regime-identification methods ranging from rule-based classification to statistical switching models; the regime-conditional-correlation awareness where cross-asset relationships invert between regimes, the root of many static-model failures catalogued in the econometrics sections); the cycle-position assessment craft (the multi-evidence triangulation combining indicator breadth, level-momentum, policy stance, and credit conditions into a phase call with confidence bounds; the turning-point humility where exact peaks and troughs are identified only in hindsight, requiring probabilistic phase language; the revision-robustness check where cycle calls survive data revisions; the horizon-mapping where cycle phase informs positioning tenor per the transmission frameworks); and the cross-market cycle integration (the global-cycle synchronization where the dominant-economy cycle transmits through trade and financial channels per the international section; the desynchronization opportunities where divergent national cycles create relative-value positions in rates and FX; the commodity-cycle overlay where capital-investment lags generate multi-year resource rhythms distinct from demand cycles) together with the section anti-patterns — the failure library: the single-indicator timer who calls recessions from one inverted spread or weak survey while breadth stays positive, remedied by the diffusion and triangulation disciplines; the clock-literalist who rotates portfolios mechanically through asset-clock phases ignoring regime overlays, remedied by the phase-conditional base-rate humility; the survey-level misreader who treats a PMI below fifty as contraction rather than slowing growth, remedied by the level-versus-change reading rules; the stale-data cyclist whose phase call rests on series revised or superseded, remedied by the freshness discipline; the regime-blind correlator who applies one era's asset correlations to another, remedied by the regime-conditional analysis; and the exact-turn predictor who stakes credibility on dated peaks, remedied by the probabilistic phase language with detection methods as the diagnostic.
+
+**What to teach (decompose and expand each bullet into framework-level treatment):**
+- Covers the cycle framework through which the fundamental analyst organizes every macro variable into a coherent market regime
+- the cycle concept (the expansion-peak-contraction-trough anatomy with the NBER dating committee's depth-diffusion-duration criteria
+- the classical versus growth-cycle distinction where output declines versus below-trend growth define different cycle taxonomies
+- the cycle-regularities across history with the shortening and lengthening debates
+- the financial-cycle overlay whose longer credit and property rhythms interact with the business cycle)
+- the indicator system (the leading-indicator tradition including yield-curve slope, permits, claims, and spreads with the Conference Board composite construction and its mixed forecasting record
+- the coincident and lagging composites for cycle-phase confirmation
+- the diffusion-index logic where breadth of improvement matters more than single-series strength
+- the survey-indicator family including PMI, ISM, and confidence surveys with the level-versus-change reading rules and the fifty-threshold folklore correction)
+- the high-frequency monitoring stack (the activity-tracker systems combining employment, mobility, energy, and payment data into nowcasts
+- the weekly-and-daily indicators filling monthly data gaps
+- the indicator-freshness discipline where stale series mislead at turning points
+- the regime-break detection distinguishing genuine cycle turns from calendar and weather noise)
+- the cycle-mechanism theories for practitioners (the accelerator-multiplier interaction generating endogenous fluctuations
+- the inventory cycle as the shortest and most tradable rhythm with its turns visible in the GDP components of the national-accounts section
+- the credit cycle where lending standards, leverage, and asset prices reinforce through financial accelerators
+- the policy-cycle contribution where reaction lags engineer overshoot
+- the shock-versus-propagation distinction separating causes from amplifiers)
+- the asset-clock mapping (the sector-rotation sequence where bonds, equities, commodities, and cash alternate leadership across cycle phases with the Merrill-style clock convention and its documented imperfections
+- the phase-conditional asset performance base rates providing priors rather than predictions
+- the late-cycle indicator set including labor-market tightness, credit spreads, and inventory positioning
+- the transition-ambiguity discipline where phases overlap and the clock skips)
+- the regime framework (the inflation-growth four-quadrant regime taxonomy driving cross-asset behavior
+- the monetary-policy regime overlay from the central-bank section
+- the regime-identification methods ranging from rule-based classification to statistical switching models
+- the regime-conditional-correlation awareness where cross-asset relationships invert between regimes, the root of many static-model failures catalogued in the econometrics sections)
+- the cycle-position assessment craft (the multi-evidence triangulation combining indicator breadth, level-momentum, policy stance, and credit conditions into a phase call with confidence bounds
+- the turning-point humility where exact peaks and troughs are identified only in hindsight, requiring probabilistic phase language
+- the revision-robustness check where cycle calls survive data revisions
+- the horizon-mapping where cycle phase informs positioning tenor per the transmission frameworks)
+- and the cross-market cycle integration (the global-cycle synchronization where the dominant-economy cycle transmits through trade and financial channels per the international section
+- the desynchronization opportunities where divergent national cycles create relative-value positions in rates and FX
+- the commodity-cycle overlay where capital-investment lags generate multi-year resource rhythms distinct from demand cycles) together with the section anti-patterns — the failure library: the single-indicator timer who calls recessions from one inverted spread or weak survey while breadth stays positive, remedied by the diffusion and triangulation disciplines
+- the clock-literalist who rotates portfolios mechanically through asset-clock phases ignoring regime overlays, remedied by the phase-conditional base-rate humility
+- the survey-level misreader who treats a PMI below fifty as contraction rather than slowing growth, remedied by the level-versus-change reading rules
+- the stale-data cyclist whose phase call rests on series revised or superseded, remedied by the freshness discipline
+- the regime-blind correlator who applies one era's asset correlations to another, remedied by the regime-conditional analysis
+- and the exact-turn predictor who stakes credibility on dated peaks, remedied by the probabilistic phase language with detection methods as the diagnostic
+
+**Evidence anchors:** select documented examples and findings from the authoritative sources listed in SKILL.md that illustrate unit 1; grade every claim (established / convention / contested) before teaching it.
+
+**Misconceptions:** identify and correct the most common practitioner misconceptions about unit 1 in macroeconomics and econometrics practice; state the corrected view explicitly.
+
+**Trade-offs to make explicit:** depth vs breadth, rigor vs speed, and the context-dependencies that change the recommendation for unit 1.
+
+## Unit 2 — Capstone integration
+
+**Purpose:** integrate every capability above on one realistic problem end to end.
+
+**Structure:** the learner takes a single problem in macroeconomics and econometrics through each unit's framework in sequence, producing a coherent deliverable that mirrors real professional documentation. Evaluation criteria: internal consistency across artifacts, evidence discipline, honest trade-off statements, and demonstrable use of each unit's framework.

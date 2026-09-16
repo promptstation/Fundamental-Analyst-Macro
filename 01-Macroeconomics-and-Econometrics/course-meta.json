@@ -1,0 +1,24 @@
+{
+  "course_number": 1,
+  "course_title": "Macroeconomics & Econometrics",
+  "folder": "01-Macroeconomics-and-Econometrics",
+  "discipline_framing": "The macroeconomic and econometric foundation of the futures fundamental analyst discipline — how interest rates, inflation, GDP, and central bank policy drive global capital flows, and how predictive statistical models quantify the correlations between these variables over time",
+  "domain_short": "macroeconomics and econometrics",
+  "audience": "Aspiring and practicing fundamental analysts of futures and derivatives markets who need rigorous command of macro aggregates, monetary policy transmission, and the econometric toolkit for building and validating predictive models of macro-market relationships",
+  "sources": [
+    "The standard macroeconomics canon (the Blanchard-Fischer and Mankiw textbook traditions, the IS-LM and AD-AS lineage, the modern New-Keynesian synthesis with its microfoundations and rational-expectations heritage)",
+    "The national-accounts and price-measurement systems (the SNA framework, the BEA and BLS statistical handbooks, the CPI and PCE construction methodologies)",
+    "The central-bank literature (Federal Reserve, ECB, and BIS publications, the Taylor-rule tradition, the forward-guidance and quantitative-easing research)",
+    "The econometrics canon (the Greene and Wooldridge textbook traditions for cross-section and panel methods, the Hamilton and Enders lineage for time-series econometrics)",
+    "The forecasting literature (the Diebold and Clements traditions, forecast-evaluation methodology, the nowcasting research from the New York Fed and ECB)",
+    "The business-cycle tradition (the NBER dating methodology, the leading-indicator systems from the Conference Board lineage, the financial-conditions-index literature)",
+    "The market-macro interface research (the macro-finance literature connecting policy shocks to rates, FX, and equity-index futures pricing, the event-study tradition for data releases)"
+  ],
+  "pitfalls": [
+    "Model worship — trusting regression output without interrogating specification, data quality, and structural stability, letting statistical significance masquerade as economic truth",
+    "Revision blindness — analyzing first-print data as final and never restating conclusions when official statistics revise, producing a research record that silently rewrites history",
+    "Correlation-as-transmission — reading historical co-movement between macro variables and futures prices as a causal channel, then getting run over when the relationship breaks under regime change",
+    "Consensus anchoring — positioning against the print rather than the expectation, forgetting that markets trade surprises versus priced-in forecasts, not absolute data levels",
+    "Indicator spaghetti — stacking dozens of overlapping indicators into an unfalsifiable composite view where every regime has some confirming signal and none has a falsifying one"
+  ]
+}
